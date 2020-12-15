@@ -1,0 +1,27 @@
+/* PianoDarkTheme */
+
+.PianoDarkTheme .ReactPiano__Key--accidental {
+  background: #810707;
+  border: 1px solid #888;
+}
+.PianoDarkTheme .ReactPiano__Key--natural {
+  background: #013243;
+  border: 1px solid #888;
+  margin-right: 0;
+}
+.PianoDarkTheme .ReactPiano__Key--active.ReactPiano__Key--accidental {
+  background: #ca7403;
+}
+.PianoDarkTheme .ReactPiano__Key--active.ReactPiano__Key--natural {
+  background: #49322e;
+}
+.notesbar {  
+  background-color: darkcyan;  
+  height: fit-content;  
+  justify-content: flex-start;  
+  align-items: center;  
+  display: block;  
+  text-align: center;  
+  font-size: 24px;  
+  font-family: cursive;
+}
